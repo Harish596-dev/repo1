@@ -1,0 +1,36 @@
+body
+{
+	background-color: #000000;
+	color : #ffffff;
+}
+
+h2
+{
+	color : #808080;
+}
+
+dt
+{
+	font-size: 1.6em;
+}
+
+dl, li
+{
+	font-family: Verdana, Sans-serif;
+}
+
+dd
+{
+	margin-left: 0px;
+}
+
+li
+{
+	color: #FE0101;
+
+}
+
+ul li li 
+{
+	color: #008000;
+}
