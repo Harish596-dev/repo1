@@ -1,0 +1,63 @@
+@import url("layout.css");
+
+/* HTML Tag
+-----------------------------------------------------------------------------*/
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+
+p
+{
+  padding: 10px;
+}
+
+/* DIV
+-----------------------------------------------------------------------------*/
+
+#wrapper
+{
+	min-width: 320px;
+	max-width: 1400px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	background: #FFE680;
+  height: 100%;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 100px;
+  height: 100%;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	margin: -100px auto 0;
+	min-width: 320px;
+	max-width: 1400px;
+	height: 100px;
+	background: #BFF08E;
+	position: relative;
+}
