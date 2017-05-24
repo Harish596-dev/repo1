@@ -1,0 +1,142 @@
+@import url("layout.css");
+
+/* HTML Tag
+-----------------------------------------------------------------------------*/
+
+html
+{
+	height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body
+{
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+
+p, ul, ol
+{
+  padding: 10px;
+}
+
+ol
+{
+  list-style-type: decimal;
+}
+
+ul
+{
+	list-style-type: circle;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+/* DIV
+-----------------------------------------------------------------------------*/
+
+#wrapper
+{
+	min-width: 320px;
+	max-width: 1400px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header
+{
+	height: 150px;
+	padding: 50px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 100px;
+  height: 100%;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	margin: -100px auto 0;
+	min-width: 320px;
+	max-width: 1400px;
+	height: 100px;
+	position: relative;
+}
+
+#header p
+{
+  text-align: center;
+  font-size: 6em;
+}
+
+#menu-bar
+{
+  text-align: center;
+  list-style-type: none;
+	font-size: 2.5em;
+}
+
+#menu-bar li
+{
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF300;
+  color: #000000;
+}
+
+#menu-bar li:hover
+{
+  background-color: #FFB551;
+  cursor: pointer;
+}
+
+#content
+{
+	padding: 10px;
+}
+
+#content #list
+{
+	font-size: 1.2em;
+}
+
+a:visited, a:active
+{
+	color: #FD0000;
+}
+
+a:hover
+{
+	cursor: pointer;
+	color: #009AFD;
+}
+
+@media screen and (min-width: 100px) and (max-width: 580px) {
+	#header {
+		height: 100%;
+		width: 100%;
+	}
+
+	#header p
+	{
+	  text-align: center;
+	  font-size: 2em;
+	}
+}
