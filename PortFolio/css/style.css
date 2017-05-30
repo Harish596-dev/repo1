@@ -23,17 +23,22 @@ p, ul, ol
 
 ol
 {
-  list-style-type: decimal;
+  list-style-type: none;
 }
 
 ul
 {
-	list-style-type: circle;
+	list-style-type: none;
 }
 
 a
 {
 	text-decoration: none;
+}
+
+a:hover
+{
+  cursor: pointer;
 }
 
 
@@ -83,7 +88,7 @@ a
 
 #header .logo
 {
-	background: url(../../../image/logo.png) no-repeat;
+	background: url(../../image/logo.png) no-repeat;
 	display: block;
 	text-indent: -99999px;
 	background-size: auto 100%;
@@ -123,7 +128,7 @@ ul#menu-bar
 	padding: 10px;
 }
 
-#content #list
+#content .list
 {
 	font-size: 22px;
 	line-height: 20px;
