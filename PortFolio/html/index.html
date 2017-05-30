@@ -3,52 +3,63 @@
 
   <head>
   	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link href="../../image/logo.ico" rel="shortcut icon"/>
+    <link href="../../all/image/logo.ico" rel="shortcut icon"/>
   	<title>PortFolio</title>
-  	<meta name="keywords" content="" />
-  	<meta name="description" content="" />
+  	<meta name="keywords" content="Reference List" />
+  	<meta name="description" content="FEST026 Web Design" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="stylesheet" href="../css/style.css" type="text/css" />
+  	<link rel="stylesheet" href="../../all/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
   </head>
 
   <body>
 
-  <div id="wrapper">
+    <div class="header">
+      <div class="topnav" id = "myTopNav">
+        <a class = "logo"></a>
+        <a href = "../../../Portfolio/html/index.html" target="_blank">Home</a>
+        <a href = "" target="_blank">Chapter</a>
 
-  	<div id="header">
-      <a href = "../../../Portfolio/html/index.html"><h1 class = "logo">FEST 026</h1></a>
-
-      <div id="navigation">
-
-        <ul id = "menu-bar">
-          <li><a href = "#">Home</a></li>
-          <li><a href = "">Chapter</a></li>
-        </ul> <!-- .ul-->
+        <a href = "" >About</a>
+        <a href = "javascript:void(0);" class = "icon">&#9776;</a>
       </div><!-- .Navigation-->
-  	</div><!-- .header-->
+    </div><!-- .header-->
 
 
-  	<div id="content">
-			<div class = "list">
-				<p>
-					<ul>
-						<li>
-							1. Chapter 1
-						</li>
-						<li>
-							1. Chapter 2
-						</li>
-					</ul>
-				</p>
-			</div>
-  	</div><!-- .content-->
+    <div class="wrapper">
+    	<div class="content">
+        <ol id = "list">
+          <li id = "">Chapter #1</li>
+            <ul>
+              <li><a href = "../../Lesson01/get-started.html" target="_blank">Get Started</a></li>
+            </ul>
 
-  </div><!-- .wrapper -->
+          <li id = "">Chapter #2</li>
+            <ul>
+              <li><a href = "../../Lesson02/resume-lab02/index.html" target="_blank">Resume without CSS</a></li>
+              <li><a href = "../../Lesson02/lab02exercise01.html" target="_blank">Simple Listing</a></li>
+            </ul>
+          <li id = "">Chapter #3</li>
+            <ul>
+              <li><a href = "../../Lesson03/Resume/html/index.html" target="_blank">Resume with CSS</a></li>
+              <li><a href = "../../Lesson03/Exercise01/Lab02Exercise01.html" target="_blank">Simple Listing with CSS</a></li>
+              <li><a href = "../../Lesson03/Exercise02/Lab03Exercise02.html" target="_blank">CSS Selectors</a></li>
+            </ul>
+          <li id = "">Chapter #4</li>
+            <ul>
+              <li><a href = "../../Lesson04/ReferenceList/html/index.html" target="_blank">References List</a></li>
+            </ul>
+        </ol> <!-- Reference List -->
+    	</div><!-- .content-->
 
-  <div id="footer">
-  	<p>&copy; by Lim Yao Cheng</p>
-  </div><!-- .footer -->
+    </div><!-- .wrapper -->
 
+    <div class="footer">
+    	<p>&copy; by Lim Yao Cheng</p>
+    </div><!-- .footer -->
+
+    <!-- Script -->
+    <script type = "text/javascript" src="../../../all/js/menu.js"></script>
   </body>
 
 </html>

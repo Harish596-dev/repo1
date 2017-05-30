@@ -57,7 +57,6 @@ a
 .header
 {
 	height: 80px;
-	padding: 0px 50px;
 	background-color: #f5cc2a;
 	line-height: 5px;
 }
@@ -89,7 +88,6 @@ a
 .header .logo
 {
 	background: url(../image/logo.png) no-repeat;
-
 	background-size: 100% 100%;
 	width: 80px;
 	height: 30px;
@@ -101,6 +99,7 @@ a
 {
 	overflow: hidden;
 	background-color: #f5cc2a;
+	padding-left: 200px;
 }
 
 .topnav a
@@ -122,19 +121,15 @@ a
 	display: none;
 }
 
-.content
-{
-	padding: 10px;
-}
-
 .content #list
 {
 	font-size: 22px;
 	line-height: 20px;
+	padding: 10px 50px;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.topnav a:not(:first-child)
 	{
 		display: none;
@@ -163,4 +158,9 @@ a
 		padding: 35px 16px 10px;
 	}
 
+	.header .logo
+	{
+		position: absolute;
+		left: 0;
+	}
 }
