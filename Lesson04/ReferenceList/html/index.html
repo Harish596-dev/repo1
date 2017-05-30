@@ -3,59 +3,61 @@
 
   <head>
   	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link href="../../../image/logo.ico" rel="shortcut icon"/>
+    <link href="../../../all/image/logo.ico" rel="shortcut icon"/>
   	<title>Reference List</title>
-  	<meta name="keywords" content="" />
-  	<meta name="description" content="" />
+  	<meta name="keywords" content="Reference List" />
+  	<meta name="description" content="FEST026 Web Design" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="stylesheet" href="../css/style.css" type="text/css" />
+  	<link rel="stylesheet" href="../../../all/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
   </head>
 
   <body>
 
-  <div id="wrapper">
+    <div class="wrapper">
 
-  	<div id="header">
-      <a href = "../../../Portfolio/html/index.html"><h1 class = "logo">FEST 026</h1></a>
+    	<div class="header">
+        <div class="topnav" id = "myTopNav">
+          <a class = "logo"></a>
+          <a href = "../../../Portfolio/html/index.html">Home</a>
+          <a href = "">Chapter</a>
 
-      <div id="navigation">
-
-        <ul id = "menu-bar">
-          <li><a href = "../../../Portfolio/html/index.html">Home</a></li>
-          <li><a href = "">Chapter</a></li>
-        </ul> <!-- .ul-->
-      </div><!-- .Navigation-->
-  	</div><!-- .header-->
+          <a href = "">About</a>
+          <a href = "javascript:void(0);" class = "icon">&#9776;</a>
+        </div><!-- .Navigation-->
+    	</div><!-- .header-->
 
 
-  	<div id="content">
-      <ol id = "list">
-        <li id = "html">HTML Reference List</li>
+    	<div class="content">
+        <ol id = "list">
+          <li id = "html">HTML Reference List</li>
 
+              <ul>
+                <li><a href = "https://www.w3schools.com/html/default.asp" target="_blank">W3School HTML</a></li>
+                <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Developer Mozilla HTML</a></li>
+              </ul>
+
+          <li id = "css">CSS Reference List</li>
             <ul>
-              <li><a href = "https://www.w3schools.com/html/default.asp" target="_blank">W3School HTML</a></li>
-              <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Developer Mozilla HTML</a></li>
+              <li><a href = "https://www.w3schools.com/css/default.asp" target="_blank">W3School CSS</a></li>
+              <li><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Developer Mozilla CSS</a></li>
             </ul>
+          <li id = "design">Responsive Web Design</li>
+            <ul>
+              <li><a href = "https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Intro</a></li>
+              <li><a href = "https://www.w3schools.com/html/html_responsive.asp" target="_blank">HTML Responsive Web Design</a></li>
+            </ul>
+        </ol> <!-- Reference List -->
+    	</div><!-- .content-->
 
-        <li id = "css">CSS Reference List</li>
-          <ul>
-            <li><a href = "https://www.w3schools.com/css/default.asp" target="_blank">W3School CSS</a></li>
-            <li><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Developer Mozilla CSS</a></li>
-          </ul>
-        <li id = "design">Responsive Web Design</li>
-          <ul>
-            <li><a href = "https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Intro</a></li>
-            <li><a href = "https://www.w3schools.com/html/html_responsive.asp" target="_blank">HTML Responsive Web Design</a></li>
-          </ul>
-      </ol> <!-- Reference List -->
-  	</div><!-- .content-->
+    </div><!-- .wrapper -->
 
-  </div><!-- .wrapper -->
+    <div class="footer">
+    	<p>&copy; by Lim Yao Cheng</p>
+    </div><!-- .footer -->
 
-  <div id="footer">
-  	<p>&copy; by Lim Yao Cheng</p>
-  </div><!-- .footer -->
-
+    <!-- Script -->
+    <script type = "text/javascript" src="../../../all/js/menu.js"></script>
   </body>
 
 </html>
