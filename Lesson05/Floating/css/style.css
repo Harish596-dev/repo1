@@ -1,0 +1,28 @@
+div
+{
+  border:1px solid black;
+}
+
+.box1, .box3, .box4
+{
+  width: 100px;
+  height: 100px;
+}
+
+.box1, .box3
+{
+  float: left;
+}
+
+.box2
+{
+  background-color: black;
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.box4
+{
+  clear: both;
+}
