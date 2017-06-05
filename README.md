@@ -2,7 +2,12 @@
 
 ## Table of Content
 1. [outline.html](https://github.com/yclim95/GuidetoWebDesign/blob/master/outline.html)
-2. [layout.html]()
+2. [layout.html](https://github.com/yclim95/GuidetoWebDesign/blob/master/all/html/layout.html)
+3. [Lesson01](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson01)
+4. [Lesson02](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson02)
+5. [Lesson03](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson03)
+6. [Lesson04](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson04/ReferenceList)
+7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
 
 **outline.html**
 ```html
