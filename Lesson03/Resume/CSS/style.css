@@ -9,6 +9,11 @@ img
   border: 5px solid #000000;
 }
 
+#profile
+{
+  width: 200px;
+}
+
 .left
 {
   float: left;
@@ -25,19 +30,37 @@ img
   top: 40px;
 }
 
+.para
+{
+  font-size: 24px;
+}
+
 
 /*
 Media Queries
 */
 
-@media screen and (max-width: 650px) {
-	.position
+@media screen and (max-width: 765px) {
+  .position
   {
     position: static;
     top: 0px;
   }
+
   .left
   {
     clear: left;
   }
+  .content
+  {
+    padding: 0px 0px 0px;
+  }
+  .wrapper
+  {
+    min-width: 320px;
+    max-width: 765px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
