@@ -75,3 +75,22 @@
 </html>
 
 ```
+
+**<a> tag open in new tab**
+```html
+<!-- HTML -->
+<a
+href="http://www.cybermilitia.net"
+title="Cyber Militia"
+target="_blank">
+The most awesome site !
+</a>
+
+<!-- XHTML1.0 Strict -->
+<a
+href="http://www.cybermilitia.net"
+title="Cyber Militia"
+onclick="window.open(this.href, '_blank');return false;">
+The most awesome site !
+</a>
+```
