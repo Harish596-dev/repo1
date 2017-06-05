@@ -7,7 +7,7 @@
   	<title>Resume With CSS</title>
   	<meta name="keywords" content="" />
   	<meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   	<link rel="stylesheet" href="../../../all/css/layout.css" type="text/css" />
     <link rel = "stylesheet" type = "text/css" href = "../css/style.css" />
   </head>
@@ -15,8 +15,8 @@
   <body>
     <div class="header">
       <div class="topnav" id = "myTopNav">
-        <a class = "logo"></a>
-        <a href = "../../../Portfolio/html/index.html" target="_blank">Home</a>
+        <a class = "logo" href = "../../../Portfolio/html/index.html" onclick="window.open(this.href, '_blank');return false;"></a>
+        <a href = "../../../Portfolio/html/index.html" onclick="window.open(this.href, '_blank');return false;">Home</a>
         <a href = "" target="_blank">Chapter</a>
 
         <a href = "" >About</a>
@@ -26,11 +26,14 @@
 
 
     <div class="wrapper">
-      <div class="content">
+      <div class="content left">
         <h1>Resume</h1>
         <img src = "../../../all/image/profile_pic.jpg" alt = "Profile Picture" />
       </div><!-- .content-->
 
+      <div class = "content left position">
+        <p> Name : Lim Yao Cheng </p>
+      </div>
     </div><!-- .wrapper -->
 
     <div class="footer">

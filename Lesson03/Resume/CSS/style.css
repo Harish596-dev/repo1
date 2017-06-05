@@ -8,3 +8,36 @@ img
 {
   border: 5px solid #000000;
 }
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+.position
+{
+  position: relative;
+  top: 40px;
+}
+
+
+/*
+Media Queries
+*/
+
+@media screen and (max-width: 650px) {
+	.position
+  {
+    position: static;
+    top: 0px;
+  }
+  .left
+  {
+    clear: left;
+  }
+}

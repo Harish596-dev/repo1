@@ -130,6 +130,9 @@ a
 	padding: 10px 0px;
 }
 
+/*
+Media Queries
+*/
 
 @media screen and (max-width: 650px) {
 	.topnav a:not(:first-child)
