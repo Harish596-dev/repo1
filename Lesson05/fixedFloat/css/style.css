@@ -1,0 +1,41 @@
+#whole-content
+{
+	width: 974px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header
+{
+	width: 974px;
+	background-color: red;
+}
+
+#nav-left
+{
+	width: 160px;
+	float: left;
+	background-color: yellow;
+}
+	
+#content
+{
+	float: left;
+	width: 654px;
+	background: green;
+}
+
+#nav-right
+{
+	width: 160px;
+	float: left;
+	background-color: blue;
+}
+
+
+
+#footer
+{
+	width: 974x;
+	clear: left;
+	background-color: red;
+}

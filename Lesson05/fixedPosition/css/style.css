@@ -1,0 +1,53 @@
+#whole-content
+{
+	width: 974px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#header
+{
+	width: 974px;
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: red;
+}
+
+#nav-left
+{
+	width: 160px;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	background-color: yellow;
+}
+	
+#content
+{
+	width: 654px;
+	position: absolute;
+	left: 160px;
+	top: 200px;
+	background: green;
+}
+
+#nav-right
+{
+	width: 160px;
+	position: absolute;
+	left: 814px;
+	top: 200px;
+	background-color: blue;
+}
+
+
+
+#footer
+{
+	width: 974px;
+	top: 400px;
+	position: absolute;
+	background-color: red;
+}

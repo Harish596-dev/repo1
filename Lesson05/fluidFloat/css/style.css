@@ -1,0 +1,33 @@
+#header
+{
+	height: 200px;
+	background-color: red;
+}
+
+#nav-left
+{
+	float: left;
+	width: 160px;
+	background-color: yellow;
+}
+	
+#content
+{
+	overflow: hidden;
+	background: green;
+}
+
+#nav-right
+{
+	float: right;
+	width: 160px;
+	background-color: blue;
+}
+
+
+
+#footer
+{
+	clear: both;
+	background-color: red;
+}

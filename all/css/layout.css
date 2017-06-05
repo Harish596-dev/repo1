@@ -49,6 +49,7 @@ a
 	min-height:	 100%;
 	height: auto !important;
 	height: 100%;
+	padding-left: 230px;
 }
 
 
@@ -83,6 +84,7 @@ a
 	height: 50px;
 	position: relative;
 	background-color: #f5cc2a;
+	padding-left: 200px;
 }
 
 .header .logo
@@ -125,7 +127,7 @@ a
 {
 	font-size: 22px;
 	line-height: 20px;
-	padding: 10px 50px;
+	padding: 10px 0px;
 }
 
 
@@ -162,5 +164,15 @@ a
 	{
 		position: absolute;
 		left: 0;
+	}
+
+	.wrapper
+	{
+		padding-left: 20px;
+	}
+
+	.footer
+	{
+		padding-left: 0px;
 	}
 }
