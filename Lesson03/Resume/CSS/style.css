@@ -35,6 +35,28 @@ img
   font-size: 24px;
 }
 
+.clear
+{
+  clear: both;
+}
+
+.content a:visited, a:active
+{
+	color: #FD0000;
+}
+
+.content a:hover
+{
+	cursor: pointer;
+	color: #FBFAF0;
+}
+
+.content-title
+{
+  background-color: #000000;
+  color: #ffffff;
+}
+
 
 /*
 Media Queries
@@ -61,6 +83,10 @@ Media Queries
     max-width: 765px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .para
+  {
+    line-height: 1.5;
   }
 
 }
