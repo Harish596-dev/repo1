@@ -1,3 +1,10 @@
+.content #list
+{
+	font-size: 22px;
+	line-height: 20px;
+	padding: 10px 0px;
+}
+
 .content #list a:visited, a:active
 {
 	color: #FD0000;
