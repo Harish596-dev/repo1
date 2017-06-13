@@ -8,6 +8,7 @@
 5. [Lesson03](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson03)
 6. [Lesson04](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson04/ReferenceList)
 7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
+7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
 8. [PortFolio](https://github.com/yclim95/GuidetoWebDesign/tree/master/PortFolio)
 
 **outline.html**
@@ -35,21 +36,22 @@
 
   <head>
   	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link href="/images/cv.ico" rel="shortcut icon"/>
-  	<title>Sample layout</title>
-  	<meta name="keywords" content="" />
-  	<meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="stylesheet" href="../../../all/css/layout.css" type="text/css" />
-    <link rel = "stylesheet" type = "text/css" href = "../css/style.css" />
+    <link href="../../all/image/logo.ico" rel="shortcut icon"/>
+  	<title>PortFolio</title>
+  	<meta name="keywords" content="Reference List" />
+  	<meta name="description" content="FEST026 Web Design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<link rel="stylesheet" href="../../all/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
   </head>
 
   <body>
+
     <div class="header">
       <div class="topnav" id = "myTopNav">
-        <a class = "logo"></a>
-        <a href = "../../../Portfolio/html/index.html" target="_blank">Home</a>
-        <a href = "" target="_blank">Chapter</a>
+        <a class = "logo" href = "./index.html" onclick="window.open(this.href, '_blank');return false;"></a>
+        <a href = "./index.html" onclick="window.open(this.href, '_blank');return false;">Home</a>
+        <a href = "" onclick="window.open(this.href, '_blank');return false;">Chapter</a>
 
         <a href = "" >About</a>
         <a href = "javascript:void(0);" class = "icon">&#9776;</a>
@@ -58,21 +60,22 @@
 
 
     <div class="wrapper">
-      <div class="content">
+    	<div class="content">
 
-      </div><!-- .content-->
+    	</div><!-- .content-->
 
     </div><!-- .wrapper -->
 
     <div class="footer">
-      <p>&copy; by Lim Yao Cheng</p>
+    	<p>&copy; by Lim Yao Cheng</p>
     </div><!-- .footer -->
 
     <!-- Script -->
-    <script type = "text/javascript" src="../../../all/js/menu.js"></script>
+    <script type = "text/javascript" src="../../all/js/menu.js"></script>
   </body>
 
 </html>
+
 
 ```
 
