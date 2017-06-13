@@ -8,7 +8,7 @@
 5. [Lesson03](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson03)
 6. [Lesson04](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson04/ReferenceList)
 7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
-7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
+7. [Lesson06](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
 8. [PortFolio](https://github.com/yclim95/GuidetoWebDesign/tree/master/PortFolio)
 
 **outline.html**
