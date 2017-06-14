@@ -13,7 +13,7 @@ h2
 	font-size: 30px;
 }
 
-p
+.content p
 {
 	font-size: 24px;
 	padding: 15px 0px;
@@ -83,7 +83,7 @@ img:hover
 	border-radius:7px 7px 7px 7px ;
 }
 
-.audio-control:hover, .audio-control:focus, .audio-control:active, 
+.audio-control:hover, .audio-control:focus, .audio-control:active,
 .video-control:hover, .video-control:focus, .video-control:active
 {
 	-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
@@ -92,7 +92,7 @@ img:hover
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	transform: scale(1.05);
-	
+
 	cursor: zoom-in;
 }
 .title, .image, .cat-content, .audio, .video
