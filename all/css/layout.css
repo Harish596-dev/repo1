@@ -167,4 +167,10 @@ Media Queries
 	{
 		padding-left: 0px;
 	}
+
+	.wrapper
+	{
+		overflow: auto;
+	}
+
 }
