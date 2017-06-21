@@ -1,0 +1,35 @@
+#header
+{
+	height: 80px;
+	background-color: #FF9F00;
+}
+
+#nav_bar
+{
+	width: 160px;
+	float: left;
+	background-color: #00FFB8;
+	height: 200px;
+}
+
+#extra_links
+{
+	width: 160px;
+	float: right;
+	background-color: #00FFE5;
+	height: 200px;
+}
+
+
+#page_contents
+{
+	background-color: #009BFF;
+	overflow: hidden;
+	height: 200px;
+}
+
+#footer
+{
+	clear: both;
+	background-color: #FF9F00;
+}
