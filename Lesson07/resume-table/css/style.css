@@ -4,11 +4,6 @@ h1
   padding-top: 20px;
 }
 
-li
-{
-  margin-left: 20px;
-}
-
 img
 {
   border: 5px solid #000000;
@@ -85,8 +80,6 @@ img
 {
   width: 300px;
 }
-
-
 
 /*
 Media Queries
