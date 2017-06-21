@@ -1,15 +1,25 @@
 # Guide to Web Design (Beginner)
 
 ## Table of Content
+### Outline/PortFolio
 1. [outline.html](https://github.com/yclim95/GuidetoWebDesign/blob/master/outline.html)
 2. [layout.html](https://github.com/yclim95/GuidetoWebDesign/blob/master/all/html/layout.html)
-3. [Lesson01](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson01)
-4. [Lesson02](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson02)
-5. [Lesson03](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson03)
-6. [Lesson04](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson04/ReferenceList)
-7. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
-7. [Lesson06](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
-8. [PortFolio](https://github.com/yclim95/GuidetoWebDesign/tree/master/PortFolio)
+
+### PortFolio
+1. [PortFolio](https://github.com/yclim95/GuidetoWebDesign/tree/master/PortFolio)
+
+### Lesson
+1. [Lesson01](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson01)
+2. [Lesson02](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson02)
+3. [Lesson03](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson03)
+4. [Lesson04](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson04/ReferenceList)
+5. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
+6. [Lesson06](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
+7. [Lesson07](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson07)
+
+### LabTest
+1. [LabTest01](https://github.com/yclim95/GuidetoWebDesign/tree/master/LabTest01)
+
 
 **outline.html**
 ```html
