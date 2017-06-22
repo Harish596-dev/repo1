@@ -35,7 +35,7 @@ img
   position: relative;
   top: 40px;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .para
@@ -71,16 +71,46 @@ img
   color: #000000;
 }
 
-.size-pic
+
+table
 {
-  width: 200px;
+	width: 100%;
 }
 
-.size-content
+#bio
 {
-  width: 300px;
+
 }
 
+.resume table, .resume th, .resume td
+{
+	border: 1px solid black;
+	background-color: #02FE0B;
+  color: #000000;
+}
+
+.resume caption
+{
+  display: table-caption;
+  text-align: center;
+	font-size: 28px;
+	padding: 16px;
+	color: #4FAB37;
+}
+
+.resume tr > :first-child
+{
+  background-color: #4FAB37;
+  color: #ffffff;
+}
+
+ul.noindent
+{
+  margin-left: 5px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
 /*
 Media Queries
 */
@@ -89,11 +119,9 @@ Media Queries
 {
   .position
   {
-    position: static;
-    top: 0px;
     padding-left: 0px;
+    top: 0px;
   }
-
 }
 
 
@@ -122,5 +150,11 @@ Media Queries
     line-height: 1.5;
   }
 
+  .position
+  {
+    position: relative;
+    top: 0px;
+    padding-left: 0px;
+  }
 
 }
