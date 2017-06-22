@@ -14,6 +14,11 @@ img
   border: 5px solid #000000;
 }
 
+table
+{
+  width: 100%;
+}
+
 #profile
 {
   width: 200px;
@@ -40,7 +45,7 @@ img
   position: relative;
   top: 40px;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .para
@@ -81,24 +86,24 @@ img
   width: 200px;
 }
 
-.size-content
+#bio td, #bio th
 {
-  width: 300px;
+  padding-bottom: 20px;
 }
-
 
 
 /*
 Media Queries
 */
 
-@media screen and (max-width:1028px)
+@media screen and (max-width:1092px)
 {
   .position
   {
     position: static;
-    top: 0px;
-    padding-left: 0px;
+    top: 40px;
+    padding-left: 15px;
+    padding-top: 30px;
   }
 
 }
@@ -121,7 +126,7 @@ Media Queries
 
   .left
   {
-    clear: both;
+    float: none;
   }
 
   .para
