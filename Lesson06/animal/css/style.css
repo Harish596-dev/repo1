@@ -95,8 +95,16 @@ img:hover
 
 	cursor: zoom-in;
 }
-.title, .image, .cat-content, .audio, .video
+.title, .image, .cat-content, .audio, .video, .audio-control, .video-control
 {
 	width: 50%;
 	margin: auto;
+}
+
+@media screen and (min-width:320px) and (max-width: 765px)
+{
+	.audio-control, .video-control
+	{
+		width: 100%;
+	}
 }
