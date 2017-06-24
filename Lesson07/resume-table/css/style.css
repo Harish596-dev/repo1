@@ -104,13 +104,6 @@ table
   color: #ffffff;
 }
 
-ul.noindent, ol.noindent
-{
-  margin-left: 10px;
-  margin-right: 0px;
-  padding-left: 15px;
-  padding-right: 0px;
-}
 /*
 Media Queries
 */
