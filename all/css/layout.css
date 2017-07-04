@@ -137,6 +137,7 @@ a
 	height: 50px;
 	background-color: #f5cc2a;
 	padding-left: 200px;
+	clear: both;
 }
 
 
@@ -197,5 +198,4 @@ Media Queries
 	{
 		padding-left: 0px;
 	}
-
 }
