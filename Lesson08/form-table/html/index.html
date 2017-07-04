@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="../../all/image/logo.ico" rel="shortcut icon"/>
+  	<title>Form-Table</title>
+  	<meta name="keywords" content="Reference List" />
+  	<meta name="description" content="FEST026 Web Design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<link rel="stylesheet" href="../../all/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="topnav" id = "myTopNav">
+        <a class = "logo" href = "./index.html" onclick="window.open(this.href, '_blank');return false;"></a>
+        <a href = "./index.html" onclick="window.open(this.href, '_blank');return false;">Home</a>
+        <a href = "" onclick="window.open(this.href, '_blank');return false;">Chapter</a>
+
+        <a href = "" >About</a>
+        <a href = "javascript:void(0);" class = "icon">&#9776;</a>
+      </div><!-- .Navigation-->
+    </div><!-- .header-->
+
+
+    <div class="wrapper">
+    	<div class="content">
+			<table>
+				<form name = "registrationForm">
+					<tr>
+						<td><label for = "username-label">User Name</label></td>
+						<td><input type = "text" name = "username" required></td>
+					</tr> <!-- UserName -->
+					
+					<tr>
+						<td><label for = "password-label">Password</label></td>
+						<td><input type = "password" name = "password" required></td>
+					</tr> <!-- Password -->
+					
+					<tr>
+						<td><label for = "email-label">Email</label></td>
+						<td><input type = "email" name = "email" required></td>
+					</tr> <!-- Email -->
+					
+					<tr>
+						<td><label for = "gender-label">Gender</label></td>
+						<td>
+							<input type = "radio" name = "gender" value = "male" checked>Male<br>
+							<input type = "radio" name = "gender" value = "female">Female<br>
+						</td>
+					</tr> <!-- Gender --> 
+					
+					<tr>
+						<td><label for = "date-label">Date of Birth:</label></td>
+						<td><input type = "date" name = "date"></td>
+					</tr> <!-- D.O.B -->
+					
+					<tr>
+						<td><label for = "exercise-label">Select your favourite exercises:</label></td>
+						<td>
+							<select name = "exercises">
+							<option value = "swimming">Swimming</option>
+							<option value = "cycling">Cycling</option>
+							<option value = "pushup">Push Up</option>
+							<option value = "jogging">Jogging</option>
+							<option value = "startjump">Start Jump</option>
+							</select>
+						</td>
+					</tr> <!-- Exercises -->
+					
+					<tr>
+						<td><label for = "time-label">How many times do you exercise a week: </label></td>
+						<td>
+							<input type = "number" name = "time" min = "1" max = "10" value = "1">
+						</td>
+					</tr> <!-- Exercise Week --> 
+					
+					<tr>
+						<td><label for = "username-label">On a a scale of 1 to 10, how do you rate your fitness level:</label></td>
+						<td>
+							<input type = "range" name = "level" id = "level" min = "1" max = "10" value = "1" oninput="levelOutput.value = time.value">
+							<output name = "levelOutput" id = "levelOutput">1</Output>
+						</td>
+					</tr> <!-- Fitness Level --> 
+					
+					<tr>
+						<td><label for = "about-label">About Me:</label></td>
+						<td><textarea  name = "about" rows = "10" cols = "30"> </textarea></td>
+					</tr> <!-- AboutMe -->
+					
+					<tr>
+						<td colspan = "2" id = "submit-row"><input type = "submit" value = "Submit" id = "submit"></td>
+					</tr> <!-- Submit --> 
+					
+					
+				</form> <!-- Form -->
+			</table> <!-- Table -->
+    	</div><!-- .content-->
+
+    </div><!-- .wrapper -->
+
+    <div class="footer">
+    	<p>&copy; by Lim Yao Cheng</p>
+    </div><!-- .footer -->
+
+    <!-- Script -->
+    <script type = "text/javascript" src="../../all/js/menu.js"></script>
+	<script type = "text/javascript" src="../js/script.js"></script>
+  </body>
+
+</html>

@@ -16,6 +16,7 @@
 5. [Lesson05](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson05)
 6. [Lesson06](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson06)
 7. [Lesson07](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson07)
+8. [Lesson08](https://github.com/yclim95/GuidetoWebDesign/tree/master/Lesson08)
 
 ### LabTest
 1. [LabTest01](https://github.com/yclim95/GuidetoWebDesign/tree/master/LabTest01)

@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="../../all/image/logo.ico" rel="shortcut icon"/>
+  	<title>Form</title>
+  	<meta name="keywords" content="Reference List" />
+  	<meta name="description" content="FEST026 Web Design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<link rel="stylesheet" href="../../all/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="topnav" id = "myTopNav">
+        <a class = "logo" href = "./index.html" onclick="window.open(this.href, '_blank');return false;"></a>
+        <a href = "./index.html" onclick="window.open(this.href, '_blank');return false;">Home</a>
+        <a href = "" onclick="window.open(this.href, '_blank');return false;">Chapter</a>
+
+        <a href = "" >About</a>
+        <a href = "javascript:void(0);" class = "icon">&#9776;</a>
+      </div><!-- .Navigation-->
+    </div><!-- .header-->
+
+
+    <div class="wrapper">
+    	<div class="content">
+			<form name = "registrationForm">
+				<div class = "form clear">
+					<p>Username</p>
+					<input type = "text" name = "username" required>
+				</div> <!-- UserName --> 
+				
+				<div class = "form">
+					<p class ="clear">Password: </p>
+					<input type = "password" name = "password" required> <br>
+				</div> <!-- Password --> 
+				
+				<div class = "form">
+					<p class ="clear">Email: </p>
+					<input type = "email" name = "email" required> <br>
+				</div> <!-- Email --> 
+				
+				<div class = "form">
+					<p class ="clear">Gender: </p>
+					<input type = "radio" name = "gender" value = "male" checked>Male<br>
+					<input type = "radio" name = "gender" value = "female">Female<br>
+				</div> <!-- Gender --> 
+				
+				<div class = "form">
+					<p class ="clear">Date of birth: </p>
+					<input type = "date" name = "dob"> <br>
+				</div> <!-- D.O.B -->
+				
+				<div class = "form">
+					<p class ="clear">Select your favourite exercises:</p>
+					<select name = "exercises">
+						<option value = "swimming">Swimming</option>
+						<option value = "cycling">Cycling</option>
+						<option value = "pushup">Push Up</option>
+						<option value = "jogging">Jogging</option>
+						<option value = "startjump">Start Jump</option>
+					</select>
+				</div> <!-- Exercises --> 
+				
+				<div class = "form">
+					<p class ="clear">How many times do you exercise a week:</p>
+					<input type = "number" name = "time" min = "1" max = "10" value = "1">
+					
+					<br>
+				</div> <!-- Exercise Week --> 
+				
+				<div class = "form">
+					<p class ="clear">On a a scale of 1 to 10, how do you rate your fitness level:</p>
+					<input type = "range" name = "level" id = "level" min = "1" max = "10" value = "1" oninput="levelOutput.value = time.value">
+					<output name = "levelOutput" id = "levelOutput">1</Output>
+				</div> <!-- Fitness Level --> 
+				
+				<div class = "form">
+					<p class ="clear">About Me:</p>
+					<textarea  name = "about" rows = "10" cols = "30"> </textarea><br>
+				</div> <!-- AboutMe --> 
+				
+				<div class = "form">
+					<input type = "submit" value = "Submit" class ="clear" id = "submit">
+				</div> <!-- Submit --> 
+				
+			</form> <!-- Form -->
+    	</div><!-- .content-->
+
+    </div><!-- .wrapper -->
+
+    <div class="footer">
+    	<p>&copy; by Lim Yao Cheng</p>
+    </div><!-- .footer -->
+
+    <!-- Script -->
+    <script type = "text/javascript" src="../../all/js/menu.js"></script>
+	<script type = "text/javascript" src="../js/script.js"></script>
+  </body>
+
+</html>
