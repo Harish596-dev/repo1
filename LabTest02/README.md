@@ -2,4 +2,4 @@
 
 ## Image
 
-![LabTest02 - Form](https://github.com/yclim95/GuidetoWebDesign/tree/master/LabTest02/form.png)
+![LabTest02 - Form](https://github.com/yclim95/GuidetoWebDesign/blob/master/LabTest02/form.PNG)
