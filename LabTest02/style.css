@@ -1,0 +1,25 @@
+td, input, option, textarea
+{
+	font-size: 18px;
+}
+
+caption
+{
+	font-size:  24px;
+	color:  #00008B;
+}
+
+tr:nth-child(even)
+{
+	background: #b0e0e6;
+}
+
+tr:nth-child(odd)
+{
+	background: #f0f8ff;
+}
+
+#submit
+{
+	text-align: center;
+}

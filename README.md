@@ -20,6 +20,7 @@
 
 ### LabTest
 1. [LabTest01](https://github.com/yclim95/GuidetoWebDesign/tree/master/LabTest01)
+1. [LabTest02](https://github.com/yclim95/GuidetoWebDesign/tree/master/LabTest02)
 
 
 ### Assignment

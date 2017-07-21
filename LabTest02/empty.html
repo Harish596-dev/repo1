@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+<head>
+	<title>Donation Form</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<form>
+		<table>
+			<caption>Donation Form</caption>
+			
+			<tr>
+				<td>
+					<label>Name</label>
+				</td>
+				
+				<td>
+					<input type = "text" placeholder = "Name" required/>
+				</td>
+			</tr> <!-- End of Name -->
+			
+			<tr>
+				<td>
+					<label>Donation Amount</label>
+				</td>
+				
+				<td>
+					<input type = "number" placeholder = "Donation Amount" required min = "0"/>
+				</td>
+			</tr> <!-- End of Amount -->
+			
+			<tr>
+				<td>
+					<label>Gender</label>
+				</td>
+				
+				<td>
+					<input type = "radio" name = "gender"  required/> Female </br>
+					<input type = "radio" name = "gender"  required/> Male </br>
+				</td>
+			</tr> <!-- End of Gender -->
+			
+			<tr>
+				<td>
+					<label>Email</label>
+				</td>
+				
+				<td>
+					<input type = "email" placeholder = "Email" required/>
+				</td>
+			</tr> <!-- End of Email -->
+			
+			<tr>
+				<td>
+					<label>Select your prefered spoken language</label>
+				</td>
+				
+				<td>
+					<select required>
+						<option value = "" disabled selected hidden>
+							Select Language
+						</option>
+						<option value = "English">
+							English
+						</option>
+						<option value = "Bahasa Melayu">
+							Bahasa Melayu
+						</option>
+						<option value = "Mandarin">
+							Mandarin
+						</option>
+					</select>
+				</td>
+			</tr> <!-- End of Spoken Language -->
+			
+			<tr>
+				<td>
+					<label>Additional Comments</label>
+				</td>
+				
+				<td>
+					<textarea rows="10" cols="30" placeholder="Additional Comments"></textarea>
+				</td>
+			</tr> <!-- End of Addition Comment -->
+			
+			<tr>
+				<td colspan = "2">
+					<input type = "checkbox" name = "confirm" /> I prefer to make my donation anonymously </br>
+					<input type = "checkbox" name = "confirm" checked/> Please sign up me up for newsletter </br>
+					<input type = "checkbox" name = "confirm" checked /> I wish to volunteer to assist with fund-raising </br>
+				</td>
+					
+			</tr> <!-- End of Confirmation -->
+			
+			<tr id = "submit">
+				<td colspan = "2">
+					<input type = "submit" value = "Submit response"/>
+				</td>
+			
+			</tr> <!-- End of Submit -->
+
+		</table> <!-- End of Table -->
+	</form> <!-- End of Form-->
+</body>
+</html>
